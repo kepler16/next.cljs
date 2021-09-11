@@ -2,5 +2,5 @@
  :builds
  {:pages {:target k16.next-cljs.core/target-alpha
           :entries [example.app]
-          :compiler-options {:optimizations :none}
+          ;; :compiler-options {:optimizations :none}
           :output-dir "compiled"}}}
