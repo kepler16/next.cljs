@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "vercel-build": "./setup.sh && next build"
+    "release-cljs": "shadow-cljs release pages",
+    "vercel-build": "./setup.sh && npm run release-cljs && next build"
   },
   "dependencies": {
     "next": "11.1.2",
