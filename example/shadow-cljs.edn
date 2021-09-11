@@ -1,6 +1,6 @@
 {:deps true
  :builds
  {:pages {:target k16.next-cljs.core/target-alpha
-          :entries [example.app]
+          :entries [example.app example.hello]
           ;; :compiler-options {:optimizations :none}
           :output-dir "compiled"}}}
