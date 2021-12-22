@@ -1,3 +1,6 @@
+/.nrepl-port
+/.clj-kondo/
 /.cpcache/
-/.log/
 /.lsp/
+/target/
+/node_modules/

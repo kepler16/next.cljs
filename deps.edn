@@ -1,1 +1,5 @@
-{:paths ["src"]}
+{:mvn/repos {"github-kepler" {:url "https://maven.pkg.github.com/kepler16/next.cljs"}}
+ :paths ["src"]
+ :aliases
+ {:build {:deps {io.github.seancorfield/build-clj {:git/tag "v0.6.3" :git/sha "9b8e09b"}}
+          :ns-default build}}}
