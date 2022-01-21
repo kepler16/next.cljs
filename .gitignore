@@ -4,3 +4,5 @@
 /.lsp/
 /target/
 /node_modules/
+/.log/
+/bin/
